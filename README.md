@@ -7,4 +7,3 @@
 
 	Usage: dirforce [url] [wordlist_path]
 
-	by: EmanuelFirmino
