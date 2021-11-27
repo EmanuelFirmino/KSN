@@ -1,3 +1,5 @@
+#!/bin/python3
+
 # Created by EmanuelFirmino github.com/EmanuelFirmino
 
 from sys import argv
@@ -51,4 +53,4 @@ if __name__ == '__main__':
 	if len(argv) == 3:
 		main()
 	else:
-		print('*Invalid argument number*')
+		banner()
