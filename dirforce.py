@@ -50,7 +50,4 @@ def main():
 			pass
 
 if __name__ == '__main__':
-	if len(argv) == 3:
-		main()
-	else:
-		banner()
+	main() if len(argv)==3 else banner()
