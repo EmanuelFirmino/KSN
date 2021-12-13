@@ -1,5 +1,4 @@
 #!/bin/python3
-
 # Created by EmanuelFirmino github.com/EmanuelFirmino
 
 from sys import argv
@@ -27,7 +26,7 @@ def delete_line():
 	stdout.write("\033[K")
 
 def main():
-	with open(argv[2]) as file:
+	with open(argv[0b0010]) as file:
 		queue = file.readlines()
 
 	banner()
@@ -50,4 +49,4 @@ def main():
 			pass
 
 if __name__ == '__main__':
-	main() if len(argv)==3 else banner()
+	main() if len(argv) == 0b0011 else banner()
