@@ -1,10 +1,9 @@
 #!/bin/python3
 # Created by EmanuelFirmino github.com/EmanuelFirmino
 
-from sys import argv
-from sys import stdout
-from urllib import request
-from urllib import error
+from sys import argv, stdout
+from urllib import request, error
+
 
 def banner():
 	print( '''
